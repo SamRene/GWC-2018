@@ -1,0 +1,122 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+<meta charset=utf8 />
+<script src="lastquiz.js" type="text/javascript"></script>
+<title>Study Routine quiz</title>
+<a name="top"><br>
+<center><h1>Quiz: Paper or Digital?</h1></center><br>
+
+<style>
+body {
+    text-align: left;
+    font-size:20px;
+    background-color: deepskyblue;}
+
+#container{
+  position: relative;
+  left: 12px;
+}
+#original{
+  font-size: 4em;
+  text-align: center;
+  letter-spacing:.3em;
+  color: #fff;
+  transform: skewX(6deg);
+}
+.Paper {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width:500px;
+}
+.Digital {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width:500px;
+}
+
+#images{
+    text-align:center;
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: saddlebrown;
+}
+.navigation a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.navigation a:hover {
+    background-color: darkkhaki;
+    color: black;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+input{
+  background-color: deepskyblue;
+  color:white;
+  border-radius: 8px;
+}
+
+</style>
+<div class="navigation">
+  <a href="homepage.html">Home</a>
+  <A HREF="QUIZLEARN.HTML">Learning Style Quiz</a>
+  <a href="quiz2.html">Study Routine Quiz</a>
+  <a href="lastquiz.html">Paper or Electrical?</a>
+</div>
+
+<div id="container">
+    <div id="original">PAPER OR DIGITAL</div>
+</div>
+<div id="images">
+    <img class="Digital" alt="Digital" src="https://cdn.pixabay.com/photo/2018/03/01/09/33/laptop-3190194_1280.jpg"/></a>
+    <img class="Paper" alt="Paper" src="https://cdn.pixabay.com/photo/2016/04/30/13/12/texture-1362879_1280.jpg"/></a>
+</div>​
+
+</head>
+
+<body>
+
+  <b id=Question1> Question 1: Do You Get Distracted Easily?</b><br>
+  <input type="radio" name="q1" value="Yes" id='Q1-A1'> Yes <br>
+  <input type="radio" name="q1" value="No" id= "Q1-A2"> No <br>
+
+  <b id=Question2> Question 2: Do you enjoy reading electronic copies of book more than paper copies?</b><br>
+  <input type="radio" name="q2" value="Yes" id='Q2-A1'>  Yes <br>
+  <input type="radio" name="q2" value="No" id='Q2-A2'> No <br>
+
+  <b id=Question3> Question 3: Do You Always Lose Papers?</b><br>
+  <input type="radio" name="q3" value="Yes" id='Q3-A1'> Yes <br>
+  <input type="radio" name="q3" value="No" id='Q3-A2'> No <br>
+
+  <b id=Question4> Question 4: Do you have messy handwriting?</b><br>
+  <input type="radio" name="q4" value="Yes" id="Q4-A1" > Yes <br>
+  <input type="radio" name="q4" value="No" id='Q4-A2'> No <br>
+
+  <b id=Question5> Question 5:Do you often work in a group?</b><br>
+  <input type="radio" name="q5" value="Yes" id="Q5-A1"> Yes <br>
+  <input type="radio" name="q5" value="No" id="Q5-A2"> No <br>
+
+  <br>
+  <input type="submit" id="myButton" value="Determine Whether You Should Go Digital Or not" onclick="begin()"></input>
+  <br><a href="#top">Go Back to Top</a>
+
+</body>
+
+</html>
